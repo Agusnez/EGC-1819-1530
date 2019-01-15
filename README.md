@@ -54,7 +54,7 @@ Ejecutar con docker
 Existe una configuración de docker compose que lanza 3 contenedores, uno
 para el servidor de base de datos, otro para el django y otro con un
 servidor web nginx para servir los ficheros estáticos y hacer de proxy al
-servidor django:
+servidor Django:
 
  * decide\_db
  * decide\_web

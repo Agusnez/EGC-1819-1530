@@ -1,7 +1,3 @@
-branches:
-  only:
-    -master
-
 language: python 
 python: 
 - "3.6"
@@ -25,3 +21,7 @@ script:
 
 addons:
   postgresql: "9.6"
+
+branches:
+  only:
+    - master
